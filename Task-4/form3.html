@@ -5,23 +5,86 @@
 </head>
 <body >
    <center><caption><H2><strong>Sign up</strong></H2></caption></center>
-    <form>
+    <form name="form3" action="https://www.google.com/buruguramya" method="post">
          <table align="center" >
          <tr>
             <td><label >First Name</label></td>
-            <td><input type ="text" placeholder="Enter first name"></td>
+            <td><input type ="text" placeholder="Enter first name" id="firstName" name="firstName"></td>
          </tr>  
          <tr>
             <td><label >Last Name</label></td>
-            <td><input type ="text" placeholder="Enter last name"></td>
+            <td><input type ="text" placeholder="Enter last name" id="lastName" name="lastName"></td>
          </tr> 
          <tr>
             <td><label >Screen Name</label></td>
-            <td><input type ="text" placeholder="Enter Screen name"></td>
+            <td><input type ="text" placeholder="Enter Screen name" id="screenName" name="screenName"></td>
          </tr>
          <tr>
-            <td><label>Date of Birth</label></td>
-            <td><input type ="date"></td>
+            <td><label>Date of birth</label></td>
+            <td colspan="3">
+                    <select name="DOB" id="Dob" required">
+                        <option value="">Month</option>
+                        <option value="jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sep"> Sep </option>
+                        <option value="Oct"> Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select name="DOB" id="Dob" required">
+                        <option value="Date">Date</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="DOB" id="Dob" required">
+                        <option value="Year">Year</option>
+                        <option value="">2000</option>
+                        <option value="">2001</option>
+                        <option value="">2002</option>
+                        <option value="">2003</option>
+                        <option value="">2004</option>
+                        <option value="">2005</option>
+                        <option value="">2006</option>
+                        <option value="">2007</option>
+                        <option value="">2008</option>
+                        <option value="">2009</option>
+                        <option value="">2010</option>
+                    </select>
          </tr> 
          <tr>
             <td><label>Gender</label></td>
@@ -31,7 +94,7 @@
          </tr>
          <tr>
             <td><label>Country</label></td>
-            <td><select name="country">
+            <td><select name="country" style="width: 87%;">
                <option value="usa">USA</option>
                <option value="uk">UK</option>
                <option value="india">INDIA</option>
@@ -39,19 +102,19 @@
          </tr>
          <tr>
             <td><label >E-mail</label></td>
-            <td><input type ="email" placeholder="Enter email"></td>
+            <td><input type ="email" placeholder="Enter email" id="Email" name="Email"></td>
          </tr>
          <tr>
             <td><label >Phone</label></td>
-            <td><input type ="tel" placeholder="Enter Phone"></td>
+            <td><input type ="tel" placeholder="Enter Phone" id="Phone" name="Phone"></td>
          </tr>
          <tr>
             <td><label>Password</label></td>
-            <td><input type ="password"></td>
+            <td><input type ="password" id="password" name="password"></td>
          </tr>
           <tr>
             <td><label>Confirm Password</label></td>
-            <td><input type ="password"></td>
+            <td><input type ="password" id="ConfirmPassword" name="ConfirmPassword"></td>
          </tr>
          <td></td>
          <td><input type="checkbox" value="Yes">I agree to the Terms of Use</td>

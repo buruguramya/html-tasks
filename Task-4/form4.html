@@ -4,26 +4,26 @@
     <title>Form4</title>
 </head>
 <body>
-    <form>
+    <form name="form4" action="https://www.google.com/buruguramya" method="post">
         <caption><H2><strong>Registration Form</strong></H2></caption>
         <table>
          <tr>
-            <td><label>First Name</label><br><input type ="text"></td>
-            <td><label>Last Name</label><br><input type ="text"></td>
+            <td><label>First Name</label><br><input type ="text" id="ifrstName" name="firstName"></td>
+            <td><label>Last Name</label><br><input type ="text" id="lastName" name="lastName"></td>
          </tr>  
           <tr>
-            <td><label>Birthday</label><br><input type ="datetime-local"></td>
+            <td><label>Birthday</label><br><input type ="datetime" id="Birthday" name="Birthday" placeholder="dd/mm/yyyy"></td>
             <td><label>Gender</label><br><input type ="radio" id="male" name="Gender" value="male">Male
             <input type ="radio" id="Female" name="Gender" value="Female">Female</td>
          </tr>
 
          <tr>
-            <td><label>email</label><br><input type ="email"></td>
-            <td><label> Mobile</label><br><input type ="tel"></td>
+            <td><label>email</label><br><input type ="email" id="email" name="email"></td>
+            <td><label> Mobile</label><br><input type ="tel" id="Mobile" name="Mobile"></td>
          </tr>
          <tr>
-            <td><label>Subject</label><br>
-            <select name="Subject">
+            <td colspan="2"><label>Subject</label><br>
+            <select name="Subject" style="width: 100%">
                 <option value="DS">DS</option>
                 <option value="IOT ">IOT</option>
                 <option value="AI">AI</option>
@@ -31,8 +31,8 @@
             </td>
          </tr>
          <tr>
-            <td>
-                <input type="submit">
+            <td >
+                <input type="submit" id="submit" name="submit">
             </td>
          </tr>  
         </table>
